@@ -1,0 +1,72 @@
+kendaraan = ['yamaha freego','motor','125','hitam','2']
+
+print(kendaraan)
+
+
+kendaraan.append('1928jt')
+kendaraan.append('standart')
+print(kendaraan)
+
+kendaraan.insert(2,'yamaha')
+print(kendaraan)
+account_circle
+['yamaha freego', 'motor', '125', 'hitam', '2']
+['yamaha freego', 'motor', '125', 'hitam', '2', '1928jt', 'standart']
+['yamaha freego', 'motor', 'yamaha', '125', 'hitam', '2', '1928jt', 'standart']
+
+
+
+
+
+kendaraan = ['yamaha freego','motor','125','hitam','2']
+
+print(kendaraan)
+
+kendaraan.append('1928jt')
+kendaraan.append('standart')
+print(kendaraan)
+
+kendaraan.insert(2,'yamaha')
+print(kendaraan)
+account_circle
+['yamaha freego', 'motor', '125', 'hitam', '2']
+['yamaha freego', 'motor', '125', 'hitam', '2', '1928jt', 'standart']
+['yamaha freego', 'motor', 'yamaha', '125', 'hitam', '2', '1928jt', 'standart']
+[ ]
+ket='''selamat datang diaplikasi menghitung luas bangun datar masukan pilihan:
+1. untuk menghitung luas persegi
+2. untuk menghitung luas lingkaran
+3. untuk menghitung luas segitiga
+'''
+
+pilih = input(ket)
+
+match pilih :
+  case '1':
+   print('kamu milih 1 untuk menghitung luas persegi')
+   sisi = int(input('masukan sisi?'))
+   luasP = sisi*sisi
+   print('luas persegi yang sisinya ',sisi,'adalah', luasp)
+  case '2':
+   print('kamu memilih 2 untuk menghitung luas lingkaran')
+   jari2 = float(input('masukan jari-jari ? '))
+   luasL = 3.14 * jari2 * jari2
+   print('luas lingkaran yang jari-jarinya ' ,jari2, 'adalah', int(luasL))
+  case '3':
+   print('kamu memilih 3 untuk menghitung luas segitiga ')
+   alas = int(input ('masukan alas ? '))
+   tinggi = int(input('masukan tinggi ?'))
+   luasS = 0.5 * alas * tinggi
+   print ('luas segitiga yang alasanya', alas, 'dan tingginya', tinggi, 'adalah', int(luasS))
+  case _:
+   print('salah memilih pilihan')
+
+cancel
+selamat datang diaplikasi menghitung luas bangun datar masukan pilihan:
+1. untuk menghitung luas persegi
+2. untuk menghitung luas lingkaran
+3. untuk menghitung luas segitiga
+2
+kamu memilih 2 untuk menghitung luas lingkaran
+masukan jari-jari ? 4
+luas lingkaran yang jari-jarinya  4.0 adalah 50
